@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính tổng</title>
+</head>
+<body onload="calSum()">
+<script>
+    function calSum() {
+        let num = +prompt("Nhap so ")
+        let sum = 0;
+        for (let i = 1; i <= num; i++) {
+            sum += i;
+        }
+        document.write(sum);
+    }
+</script>
+</body>
+</html>
